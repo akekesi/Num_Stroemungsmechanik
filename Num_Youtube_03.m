@@ -1,4 +1,5 @@
 %% Numeriche Stroemungsmechanik
+%  Normierte Raeume
 %  Numerik von Andreas Malcherek (YouTube)
 %  https://www.youtube.com/watch?v=rX4fsL2SXPA&list=PLeJlNT9hA2Pwn8dEA_oJhoD2xEU9iwYMY&index=3
 clear all
