@@ -1,17 +1,19 @@
-clf%% Numeriche Stroemungsmechanik
+%% Numeriche Stroemungsmechanik
+%  Transport-GL
 %  Numerik von Andreas Malcherek (YouTube)
 %  https://www.youtube.com/watch?v=rX4fsL2SXPA&list=PLeJlNT9hA2Pwn8dEA_oJhoD2xEU9iwYMY&index=5
 clear all
 clc
+clf
 
 dx = 0.05;
 xa = 0;
 xe = 1;
 x = xa:dx:xe;
 
-u = 2.5;          % Geschw.
+u = 2.5;        % Geschw.
 nue = 0.1;      % kin. Visk.
-Pe = dx*u/nue;  % Pecletzahl
+Pe = dx*u/nue;  % Pecletzahl < 2
 STABILITAET_ZD = 'Stabilitaet (Zentralendiff.): wenn A diagonaldominant ist, d.h. Pe < 2';
 STABILITAET_VD = 'Stabilitaet (Vorderendiff.): ??? unabhängig von Pe ??? --> NALAM NEM, nalam Pe<=1-nel stabil';
 %% Berechnung
