@@ -1,4 +1,5 @@
 %% Numeriche Stroemungsmechanik
+%  Evolutionsgleichung
 %  Numerik von Andreas Malcherek (YouTube)
 %  https://www.youtube.com/watch?v=1kEigsmKlaE&list=PLeJlNT9hA2Pwn8dEA_oJhoD2xEU9iwYMY&index=1
 clear all
@@ -26,6 +27,9 @@ plot(t,u_LW,'Color','#D95319')
 plot(t,u_3_,'Color','#EDB120')
 plot(t,u_RK,'Color','#7E2F8E')
 legend({'ana','expl. Euler','Lax-Wendroff','-3-','Runge-Kutta 4'})
+title({'Wachstum der Bevoelkerung'},'FontSize',16,'FontWeight','normal')
+xlabel('t [s]')
+ylabel('Anzahl der Menschen')
 grid on
 grid minor
 hold off
