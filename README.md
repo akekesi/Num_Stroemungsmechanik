@@ -1,7 +1,7 @@
 # Num_Stroemungsmechanik, Hidraulik
 
 ## Links
-Andreas Malcherek's YouTube Chanel:
+Andreas Malcherek's YouTube Channel:
 
 [Num_Stroemungsmechanik](https://www.youtube.com/playlist?list=PLeJlNT9hA2Pwn8dEA_oJhoD2xEU9iwYMY)
 
